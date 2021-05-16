@@ -1,0 +1,21 @@
+{
+    "extends": "eslint:recommended",
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "jquery": true,
+        "es6": true
+    },
+    "globals": {
+    },
+    "rules": {
+        "no-unused-labels": "off",
+        "no-redeclare": "off",
+        "no-unused-vars": [
+            "error",
+            {
+                "argsIgnorePattern": "^_"
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+	"version": "1.0.0",
+	"name": "test",
+	"private": true,
+	"scripts": {
+		"lint": "eslint ."
+	},
+	"devDependencies": {
+		"babel-eslint": "^10.1.0",
+		"eslint": "^7.25.0"
+	}
+}
