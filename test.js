@@ -1,5 +1,5 @@
 // test
 
 function a() {
-	console.log('function a');
+	console.log('add function a');
 }
