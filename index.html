@@ -16,6 +16,7 @@
 			gtag('event', document.getElementById('type').value, {
 				'arg1': document.getElementById('arg1').value,
 				'arg2': document.getElementById('arg2').value,
+				'arg3': document.getElementById('arg3').value,
 			});
 		}
 	</script>
@@ -23,8 +24,9 @@
 
 <body>
 	type <input id="type" value="debug"><br>
-	arg1 <input id="arg1" value="arg1"><br>
-	arg2 <input id="arg2" value="arg2"><br>
+	arg1 <input id="arg1" value="val1"><br>
+	arg2 <input id="arg2" value="val2"><br>
+	arg3 <input id="arg3" value="val3"><br>
 	<button onclick="send()">Send</button>
 </body>
 
