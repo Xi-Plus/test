@@ -13,21 +13,18 @@
 
 	<script>
 		function send() {
-			ga('send', {
-				hitType: document.getElementById('hitType').value,
-				eventCategory: document.getElementById('eventCategory').value,
-				eventAction: document.getElementById('eventAction').value,
-				eventLabel: document.getElementById('eventLabel').value
+			gtag('event', document.getElementById('type').value, {
+				'arg1': document.getElementById('arg1').value,
+				'arg2': document.getElementById('arg2').value,
 			});
 		}
 	</script>
 </head>
 
 <body>
-	hitType <input id="hitType" value="event"><br>
-	eventCategory <input id="eventCategory" value="uncategorized"><br>
-	eventAction <input id="eventAction" value="action"><br>
-	eventLabel <input id="eventCategory" value="label"><br>
+	type <input id="type" value="debug"><br>
+	arg1 <input id="arg1" value="arg1"><br>
+	arg2 <input id="arg2" value="arg2"><br>
 	<button onclick="send()">Send</button>
 </body>
 
