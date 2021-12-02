@@ -13,20 +13,22 @@
 
 	<script>
 		function send() {
-			gtag('event', document.getElementById('type').value, {
-				'arg1': document.getElementById('arg1').value,
-				'arg2': document.getElementById('arg2').value,
-				'arg3': document.getElementById('arg3').value,
-			});
+			var args = {};
+			for (let i = 1; i <= 3; i++) {
+				if (document.getElementById('arg' + i).value && document.getElementById('val' + i).value) {
+					args[document.getElementById('arg' + i).value] = document.getElementById('val' + i).value
+				}
+			}
+			gtag('event', document.getElementById('type').value, args);
 		}
 	</script>
 </head>
 
 <body>
 	type <input id="type" value="debug"><br>
-	arg1 <input id="arg1" value="val1"><br>
-	arg2 <input id="arg2" value="val2"><br>
-	arg3 <input id="arg3" value="val3"><br>
+	<input id="arg1" value="arg1"> <input id="val1" value="val1"><br>
+	<input id="arg2" value="arg2"> <input id="val2" value="val2"><br>
+	<input id="arg3" value="arg3"> <input id="val3" value="val3"><br>
 	<button onclick="send()">Send</button>
 </body>
 
