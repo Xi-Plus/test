@@ -8,5 +8,4 @@
 
 ## real
 * https://rai.ngo/Q/A3 辦公室
-* https://rai.ngo/P/EZ
-* https://rai.ngo/P/EQ
+* https://rai.ngo/Q/GC 廚房
