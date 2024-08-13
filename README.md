@@ -10,3 +10,5 @@
 ----
 * https://rai.ngo/D/A0
 * https://rai.ngo/A/AA
+* https://rai.ngo/D/B0
+* https://rai.ngo/D/B1
