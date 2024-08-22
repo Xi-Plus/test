@@ -8,6 +8,11 @@
 * https://rai.ngo/D/799
 
 ----
+* https://rai.ngo/joinpass?id1=8&id2=5
+* https://rai.ngo/joinpass?id1=9&id2=6
+* https://rai.ngo/joinpass?id1=10&id2=7
+
+----
 * https://rai.ngo/D/A0
 * https://rai.ngo/A/AA
 * https://rai.ngo/D/B0
