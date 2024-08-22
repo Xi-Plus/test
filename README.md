@@ -8,9 +8,9 @@
 * https://rai.ngo/D/799
 
 ----
-* https://rai.ngo/joinpass?id1=8&id2=5
-* https://rai.ngo/joinpass?id1=9&id2=6
-* https://rai.ngo/joinpass?id1=10&id2=7
+* https://app.raingo.com.tw/joinpass?id1=8&id2=5
+* https://app.raingo.com.tw/joinpass?id1=9&id2=6
+* https://app.raingo.com.tw/joinpass?id1=10&id2=7
 
 ----
 * https://rai.ngo/D/A0
