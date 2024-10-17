@@ -15,5 +15,6 @@
 ----
 * https://rai.ngo/D/A0
 * https://rai.ngo/A/AA
-* https://rai.ngo/D/B0
-* https://rai.ngo/D/B1
+* https://rai.ngo/D/B0 $0
+* https://rai.ngo/D/B1 $19
+* https://rai.ngo/D/B1 0號傘
