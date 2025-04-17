@@ -21,3 +21,7 @@
 * https://app.raingo.com.tw/joinpass?id1=8&id2=5
 * https://app.raingo.com.tw/joinpass?id1=9&id2=6
 * https://app.raingo.com.tw/joinpass?id1=10&id2=7
+* https://app.raingo.com.tw/joinpass
+* https://app.raingo.com.tw/joinpass?mode=raingo
+* https://app.raingo.com.tw/joinpass?mode=school
+* https://app.raingo.com.tw/joinpass?mode=xxx
