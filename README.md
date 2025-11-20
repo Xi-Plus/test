@@ -25,4 +25,5 @@
 * https://app.raingo.com.tw/joinpass?mode=raingo
 * https://app.raingo.com.tw/joinpass?mode=school
 * https://app.raingo.com.tw/joinpass?mode=xxx
+* https://app.raingo.com.tw/keelungMap
 * https://test-app-2.raingo.com.tw/_redirect/verifyEmail
